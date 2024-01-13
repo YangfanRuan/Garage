@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "i2c_mlx90614.h": "c"
+    }
+}
