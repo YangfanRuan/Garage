@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lpr_font.cpp" />
+    <ClCompile Include="src\lpr_process.cpp" />
+    <ClCompile Include="src\lpr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lpr_process.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lpr_font.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,9 +137,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
